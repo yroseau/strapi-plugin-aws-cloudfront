@@ -1,5 +1,5 @@
 {
-  "name": "strapi-plugin-aws-cloudfront",
+  "name": "@yroseau/strapi-plugin-aws-cloudfront",
   "version": "1.0.0",
   "repository": {
     "type": "git",
