@@ -6,7 +6,7 @@
     "url": "https://github.com/yroseau/strapi-plugin-aws-cloudfront.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/strapi-plugin-aws-cloudfront"
+    "registry": "https://npm.pkg.github.com/yroseau"
   },
   "homepage": "https://github.com/yroseau/strapi-plugin-aws-cloudfront#readme",
   "description": "Invalidate path in Aws CloudFront in terms of content type",
