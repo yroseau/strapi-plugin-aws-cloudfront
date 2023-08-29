@@ -1,0 +1,45 @@
+{
+  "name": "strapi-plugin-aws-cloudfront",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yroseau/strapi-plugin-aws-cloudfront.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/strapi-plugin-aws-cloudfront"
+  },
+  "homepage": "https://github.com/yroseau/strapi-plugin-aws-cloudfront#readme",
+  "description": "Invalidate path in Aws CloudFront in terms of content type",
+  "keywords": [
+    "invalidate",
+    "aws",
+    "cloudfront",
+    "cache",
+    "strapi"
+  ],
+  "strapi": {
+    "name": "aws-cloudfront",
+    "description": "Invalidate path in Aws CloudFront in terms of content type",
+    "kind": "plugin",
+    "displayName": "Aws Cloudfront"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cloudfront": "^3.382.0",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "retimer": "^4.0.0"
+  },
+  "author": {
+    "name": "Yann Roseau"
+  },
+  "maintainers": [
+    {
+      "name": "Yann Roseau"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
